@@ -25,7 +25,7 @@ def multiply(*args):
     return multiply_num
 
 
-def devide(*args):
+def devide_free(*args):
     list_args = list(args)
     devide_num = 1
     for l in list_args:
