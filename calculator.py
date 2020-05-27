@@ -23,3 +23,14 @@ def multiply(*args):
     for k in list_args:
         multiply_num = multiply_num * k
     return multiply_num
+
+
+def devide(*args):
+    list_args = list(args)
+    devide_num = 1
+    for l in list_args:
+        devide_num = devide_num / l
+    return devide_num * (list_args[0] ** 2)
+
+
+print(devide(16, 4, 2))
