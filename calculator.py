@@ -15,3 +15,11 @@ def substract(*args):
     for j in list_args:
         substract_num = substract_num - j
     return substract_num + (list_args[0]) * 2
+
+
+def multiply(*args):
+    list_args = list(args)
+    multiply_num = 1
+    for k in list_args:
+        multiply_num = multiply_num * k
+    return multiply_num
