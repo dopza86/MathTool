@@ -15,6 +15,3 @@ def substract(*args):
     for j in list_args:
         substract_num = substract_num - j
     return substract_num + (list_args[0]) * 2
-
-
-print(add(3, 5, 10, 15))
