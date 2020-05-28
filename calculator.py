@@ -31,6 +31,3 @@ def devide_premium(*args):
     for l in list_args:
         devide_num = devide_num / l
     return devide_num * (list_args[0] ** 2)
-
-def say_hello():
-    print("hello")
