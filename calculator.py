@@ -33,5 +33,4 @@ def devide_premium(*args):
     return devide_num * (list_args[0] ** 2)
 
 
-def square(a):
-    return a ** 2
+print(devide(16, 4, 2))
